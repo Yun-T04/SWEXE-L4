@@ -11,8 +11,9 @@ class TopController < ApplicationController
         #if params[:uid] == 'kindai' and params[:pass] == 'sanriko'
         user = User.find_by(uid: params[:uid])
         
-        if user && user.authenticate(params[:pass])
-            #User.find_by(uid: params[:uid]) and User.find_by(pass: params[:pass])
+        if user and BCrypt::Password.new(user.pass) == params[:pass]
+            #logger.debug "-" * 50
+            #logger.debug user
             session[:login_uid] = params[:uid]
             redirect_to top_main_path
         else

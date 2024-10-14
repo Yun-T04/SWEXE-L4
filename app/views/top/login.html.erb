@@ -3,5 +3,9 @@
     <%= f.text_field :uid %>
     <%= f.label :pass, 'パスワード' %>
     <%= f.password_field :pass %>
-    <%= f.submit '登録' %>
+    <%= f.submit 'ログイン' %>
 <% end %>
+
+<%= link_to 'ユーザー登録', new_user_path %>
+
+<%= link_to 'ユーザー 一覧', users_path %>
