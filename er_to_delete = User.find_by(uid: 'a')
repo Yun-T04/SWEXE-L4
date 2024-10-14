@@ -1,0 +1,21 @@
+ => 
+[[32m#<User:0x000078d9bc456aa0[0m
+  id: [34m[1m1[0m,
+  uid: [31m[1m"[0m[31ma[0m[31m[1m"[0m,
+  pass: [31m[1m"[0m[31mb[0m[31m[1m"[0m,
+  created_at: Wed, 09 Oct 2024 08:23:38.229648000 UTC +00:00,
+  updated_at: Wed, 09 Oct 2024 08:23:38.229648000 UTC +00:00[32m>[0m,
+ [32m#<User:0x000078d9bca61418[0m
+  id: [34m[1m2[0m,
+  uid: [31m[1m"[0m[31mkindai[0m[31m[1m"[0m,
+  pass:
+   [31m[1m"[0m[31m$2a$12$VcE/y8idMcwl/QoPu2icP.eW/ykcoKqEm9177C5aylLVL36n4dPBq[0m[31m[1m"[0m,
+  created_at: Mon, 14 Oct 2024 03:32:15.062502000 UTC +00:00,
+  updated_at: Mon, 14 Oct 2024 03:52:21.164592000 UTC +00:00[32m>[0m,
+ [32m#<User:0x000078d9bca612d8[0m
+  id: [34m[1m3[0m,
+  uid: [31m[1m"[0m[31mkindai[0m[31m[1m"[0m,
+  pass:
+   [31m[1m"[0m[31m$2a$12$aYByE8RKtFIEcxeHGuKjA.oQq7hpNN42nBSEYGgWLl5VT3P6IJ/hy[0m[31m[1m"[0m,
+  created_at: Mon, 14 Oct 2024 03:38:25.443995000 UTC +00:00,
+  updated_at: Mon, 14 Oct 2024 03:38:25.443995000 UTC +00:00[32m>[0m] 
